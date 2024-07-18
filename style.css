@@ -1,0 +1,51 @@
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top : 10em ;
+}
+
+.imgStyle{
+    height: 8em;
+    width: 12em;
+    margin: 0.5em;
+}
+
+.imgStyle:hover{
+    cursor: pointer;
+    transform: scale(1.2 , 1.2);
+}
+
+#model{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: black;
+    overflow: hidden;
+}
+
+#close{
+    color: yellow;
+    font-size: 2.3em;
+    position: fixed;
+    top : 30px;
+    right: 30px;
+    font-weight: bold;
+}
+
+#close:hover{
+    cursor: pointer;
+    transform: scale(1.2 , 1.2);
+}
+
+.imgModel{
+    height: 100%;
+    width : 80% ;
+}
